@@ -1,0 +1,3 @@
+src/test/resources/payloads/createOrderPayload.json
+src/test/resources/payloads/createPaymentPayload.json
+src/test/resources/secrets.properties

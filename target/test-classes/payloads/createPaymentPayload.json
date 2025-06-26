@@ -1,0 +1,18 @@
+{
+  "amount": 10000,
+  "currency": "INR",
+  "accept_partial": false,
+  "description": "Test Payment Link",
+  "customer": {
+    "name": "Mukesh",
+    "email": "mukeshbalodi5@gmail.com",
+    "contact": "8860461883"
+  },
+  "notify": {
+    "sms": true,
+    "email": true
+  },
+  "reminder_enable": true,
+  "callback_url": "https://example.com/callback",
+  "callback_method": "get"
+}
