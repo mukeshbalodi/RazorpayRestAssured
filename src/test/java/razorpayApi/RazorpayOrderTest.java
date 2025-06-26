@@ -11,7 +11,7 @@ import java.util.Base64;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.equalTo;
-public class RazorpayOrderTest {
+public class RazorpayApi {
 	 ConfigReaderUtils configreader = new ConfigReaderUtils();   
     @Test
     public void createOrder() {
