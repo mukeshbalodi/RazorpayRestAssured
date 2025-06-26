@@ -28,26 +28,27 @@ This project automates the testing of **Razorpay's Payment APIs** using **Java, 
 ## 📂 Project Structure
 project-root/
 ├── src/
-│ └── test/
-│ ├── java/
-│ │ ├── org/
-│ │ │ └── Mukesh/
-│ │ │ └── MyrestAssured/
-│ │ │ ├── BasicCRUD.java
-│ │ │ └── TestNetwork.java
-│ │ ├── razorpayapi/
-│ │ │ ├── CreateOrderTest.java
-│ │ │ ├── CreatePaymentLinkTest.java
-│ │ │ └── CancelPaymentLinkTest.java
-│ │ └── util/
-│ │ ├── ConfigReaderUtil.java
-│ │ └── PayloadUtil.java
-│ └── resources/
-│ ├── payload/
-│ │ ├── createOrderPayload.json
-│ │ └── createPaymentPayload.json
-│ └── secrets.properties
+│   └── test/
+│       ├── java/
+│       │   ├── org/
+│       │   │   └── Mukesh/
+│       │   │       └── MyrestAssured/
+│       │   │           ├── BasicCRUD.java
+│       │   │           └── TestNetwork.java
+│       │   ├── razorpayapi/
+│       │   │   ├── CreateOrderTest.java
+│       │   │   ├── CreatePaymentLinkTest.java
+│       │   │   └── CancelPaymentLinkTest.java
+│       │   └── util/
+│       │       ├── ConfigReaderUtil.java
+│       │       └── PayloadUtil.java
+│       └── resources/
+│           ├── payload/
+│           │   ├── createOrderPayload.json
+│           │   └── createPaymentPayload.json
+│           └── secrets.properties
 └── pom.xml
+
 
 org.Mukesh.MyrestAssured/` → Basic CRUD and network check tests (e.g., reqres.in)
 - `razorpayapi/` → All Razorpay sandbox automation test cases
